@@ -1,5 +1,5 @@
 html body {
-	background-image: url(photos/bkg.jpg);
+	background-image: url(photos/bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -8,29 +8,34 @@ html body {
 	color: black;
 }
 
-div.container.bienvenus {
-	padding: 0;
+a.navbar-brand img.logo {
+	width: 90px;
+	border-radius: 2px;
 }
 
-.logo {
-	width: 90px;
-	height: 90px;
-	float: left;
-	border-radius: 22px;
-	box-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+div.row div.mapouter.col-md-6.col-12.imgs {
+	width: 100%;
+	height: auto;
+}
+
+i.fas.fa-bars {
+	color: black;
+}
+
+i.fab.fa-canadian-maple-leaf {
+	color: black;
+	margin-left: 25px;
 }
 
 h1.reduce {
 	margin-top: 0;
 	margin-bottom: 0;
-	background-color: rgba(209, 192, 167, 0.8);
 	border-radius: 2px 2px 0 0;
 }
 
 h3.reduce {
 	margin-top: 0;
 	margin-bottom: 10px;
-	background-color: rgba(209, 192, 167, 0.8);
 	border-radius: 0 0 2px 2px;
 }
 
@@ -40,10 +45,9 @@ h1, h3 {
 }
 
 body nav {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(117, 98, 77, 0.7);
 	font-family: 'Lato', sans-serif;
-	font-size: 1.2em;
-	margin: 0 8%;
+	font-size: 1.5em;
 }
 
 li.nav-item.col-md-2 {
@@ -58,24 +62,15 @@ div.menu {
 	width: 100%;
 }
 
-a.nav-link {
-	color: black;
-	width: 100%;
-	padding: auto;
-	font-size: 1.2em;
-	float: right;
-}
-
 .nav-item a:hover {
 	color: black;
 	text-decoration: none;
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
 div.content{
 	margin: 90px 20% 50px 20%;
 	text-align: justify;
-
 }
 
 div p.col-md-6 {
@@ -85,13 +80,18 @@ div p.col-md-6 {
 
 p.col-md-6.col-12 img {
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 p.col-md-6.col-12{
-	background-color: rgba(209, 192, 167, 0.8);
-	padding-top: 16px;
-	padding-bottom: 16px;
+	background-color: rgba(117, 98, 77, 0.7);
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+p.col-md-6.col-12.leftbox span {
+	font-size: 0.65em;
+	line-height: normal;
 }
 
 p.col-md-6.col-12.imgs {
@@ -103,12 +103,6 @@ p.col-md-6.col-12.leftbox {
 	border-radius: 2px 0 0 2px;
 }
 
-img.show-sm{
-	width: 100%;
-	height: auto;
-	margin-top: 10px;
-}
-
 tr td.underline {
 	border-bottom: 8px solid rgba(209, 192, 167, 0.3);
 	border-right: 5px solid rgba(209, 192, 167, 0.3);
@@ -116,7 +110,7 @@ tr td.underline {
 
 .spacing {
 	border-collapse:separate; 
-	border-spacing: 0 71px;
+	border-spacing: 0 7.5px;
 }
 
 .left {
@@ -135,16 +129,16 @@ thead.thead {
 }
 
 table.spacing.container.col-md-6.col-12 {
-	background-color: rgba(209, 192, 167, 0.8);
+	background-color: rgba(117, 98, 77, 0.7);
 	width: 100%;
 	height: 100%;
 	margin: 30px 0 16px 0;
 	padding: 16px 15px;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 div.container.middle {
-	background-color: rgba(0, 0, 0, 0.75) ;
+	background-color: rgba(117, 98, 77, 0.5);
 	padding-top: 110px;
 }
 
