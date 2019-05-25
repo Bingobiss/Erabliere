@@ -147,7 +147,7 @@ div.container.middle {
 	padding-top: 110px;
 }
 
-span.col-md-4 img{
+span.col-md-4 img.centered.grayimages {
 	max-width: 100%;
 	height: 240px;
 }
