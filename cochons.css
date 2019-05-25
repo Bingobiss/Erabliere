@@ -170,10 +170,6 @@ span.col-md-4 {
 	border: 4px solid rgba(209, 192, 167, 0.3);
 }
 
-img.centered.grayimages:hover {
-	filter: sepia(0%);
-}
-
 img.centered.grayimages {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
